@@ -1,0 +1,11 @@
+{
+    "shell_cmd": "echo \"require(rmarkdown); render ('$file_name') \" | R --vanilla",
+    "variants": 
+    [
+    {
+        "name": "open file",
+        "shell_cmd": "/home/chris/.config/i3/my_scripts/rmd_compile.sh $file_path $file_name $file_base_name",
+        "shell": true
+    }
+    ]
+}
